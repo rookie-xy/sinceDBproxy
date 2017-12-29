@@ -1,0 +1,9 @@
+proxy:
+    - sinceDB:
+        pipeline.channel:
+            max: 512
+            duration: 2s
+        	batch: 128
+        client.sinceDB:
+            file: "/home/go/src/github.com/rookie-xy/hubble/data/sinceDB"
+            #file: "/Users/mengshi/go/src/github.com/rookie-xy/hubble/data/sinceDB"
